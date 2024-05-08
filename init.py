@@ -1,11 +1,11 @@
 import tushare as ts
+from private_param import tushare_token
 
-# ts.set_token('471872b540c262a114dcc5b089eb1dd4e65f75385d13fa866010060d')
 #
 # pro = ts.pro_api()
 
 def init():
-    ts.set_token('471872b540c262a114dcc5b089eb1dd4e65f75385d13fa866010060d')
+    ts.set_token('{{tushare_token}}')
 
     pro = ts.pro_api()
     return pro

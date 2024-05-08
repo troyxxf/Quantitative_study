@@ -1,7 +1,7 @@
 import requests
-
+from private_param import server_jiang_token
 def server_jiang_send_message(text):
-    api_url='https://sctapi.ftqq.com/SCT247269TRLg07c3JPyZoVmXIS1Pew6Ww.send'
+    api_url='https://sctapi.ftqq.com/{}.send'.format(server_jiang_token)
     data={
         'title':'股票信息',
         'desp':text

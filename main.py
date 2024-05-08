@@ -39,9 +39,9 @@ if '__main__' == __name__:
                 text = " %%{}. Current status: Predicting fall.   ".format(stock)
             all_text += text
             # print("No Signal for {}".format(stock))
-            plot_macd_withSignal(strategy_data)
+            # plot_macd_withSignal(strategy_data)
 
-    # server_jiang_send_message(all_text)
+    server_jiang_send_message(all_text)
     # print(all_text)
     # 回测结果
     # backtest_data = basktest(strategy_data)
