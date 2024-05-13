@@ -25,4 +25,3 @@ def plot_trade_data(ts_code, start_date, end_date):
     else:
         print("No data available")
 
-# 示例调用

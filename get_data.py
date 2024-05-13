@@ -19,6 +19,7 @@ def get_data_from_Yahoo(stock,start_date,end_date):
     # print(data.head())
 
     return data
+
 # # 设置股票代码
 # stock = 'AAPL'
 # start_date=datetime(2020, 1, 1)

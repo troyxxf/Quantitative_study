@@ -5,7 +5,9 @@ from private_param import tushare_token
 # pro = ts.pro_api()
 
 def init():
-    ts.set_token('{{tushare_token}}')
+    token=tushare_token
+    # print(token)
+    ts.set_token(token)
 
     pro = ts.pro_api()
     return pro
